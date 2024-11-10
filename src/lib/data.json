@@ -3,109 +3,127 @@
     "title": "Eats",
     "items": [
       {
-        "name": "Uptown Veg (Harlem)",
+        "name": "Uptown Veg",
+        "location": "Harlem",
         "link": "https://uptownvegnyc.com/",
         "description": "Vegan soul food with 2 Harlem locations. Buffet style.",
         "image": "uptown-veg.png"
       },
       {
-        "name": "Bunna Cafe (Bushwick)",
+        "name": "Bunna Cafe",
+        "location": "Bushwick",
         "link": "https://www.bunnaethiopia.net/",
         "description": "Vegan Ethiopian food. Come with friends and get the platter to share.",
         "image": "bunna.png"
       },
       {
-        "name": "Spicy Moon (Multiple but East Village is best)",
+        "name": "Spicy Moon",
+        "location": "Multiple but East Village is best",
         "link": "https://www.spicymoonnyc.com/",
         "description": "Most popular vegan restaurant in the city. Get the dry pepper style tofu.",
         "image": "spicy-moon.png"
       },
       {
-        "name": "Cafe Clementine (Clinton Hill)",
+        "name": "Cafe Clementine",
+        "location": "Clinton Hill",
         "link": "https://cafeclementine.com/",
         "description": "Super cute vegan cafe. Try all the pastries you can.",
         "image": "clementines.png"
       },
       {
-        "name": "Very Fresh Noodles (Chelsea)",
+        "name": "Very Fresh Noodles",
+        "location": "Chelsea",
         "link": "http://www.veryfreshnoodles.com/",
         "description": "Hand-pulled noodles in Chelsea Market. Get the vegan dry duck noodles and tofu pudding.",
         "image": "very-fresh-noodles.png"
       },
       {
-        "name": "Yough (Bushwick)",
+        "name": "Yough",
+        "location": "Bushwick",
         "link": "https://www.youghtogo.com/",
-        "description": "All vegan bodega. So many sandwiches, snaclss and treats.",
+        "description": "All vegan bodega. So many sandwiches, snacks and treats.",
         "image": "yough.png"
       },
       {
-        "name": "Buddha Bodai (Chinatown)",
+        "name": "Buddha Bodai",
+        "location": "Chinatown",
         "link": "https://www.buddha-bodai.com/",
         "description": "5 Mott St. All day dim sum. Get anything with the BBQ pork.",
         "image": "bodai.png"
       },
       {
-        "name": "Screamers Pizzeria (Crown Heights)",
+        "name": "Screamers Pizzeria",
+        "location": "Crown Heights",
         "link": "https://www.screamerspizzeria.com/",
         "description": "The only all-vegan pizzeria in the city. Get the buffalo cauliflower slice.",
         "image": "screamers.png"
       },
       {
-        "name": "NY Dosas (Greenwich Village)",
+        "name": "NY Dosas",
+        "location": "Greenwich Village",
         "link": "https://www.instagram.com/nydosas",
         "description": "Tasty dosa cart in Washington Square Park. Check their Insta for time and arrive early.",
         "image": "ny-dosa.png"
       },
       {
-        "name": "Spring Cafe (Chinatown)",
+        "name": "Spring Cafe",
+        "location": "Chinatown",
         "link": "https://springcafenyc.com/",
         "description": "Tiny cafe above the Canal St. station. Get the vegan bao combo.",
         "image": "spring-cafe.png"
       },
       {
-        "name": "Sen Saigon (Chinatown)",
+        "name": "Sen Saigon",
+        "location": "Chinatown",
         "link": "https://sensaigon.com/",
         "description": "Best Viet food in the city. Everything is good.",
         "image": "sen-saigon.png"
       },
       {
-        "name": "Dayglow (Bushwick)",
+        "name": "Dayglow",
+        "location": "Bushwick",
         "link": "https://dayglow.coffee/",
-        "description": "Hipster Bushwich coffee shop. Best cup I've had in the city.",
+        "description": "Hipster Bushwick coffee shop. Best cup I've had in the city.",
         "image": "dayglow.png"
       },
       {
-        "name": "Tofubox (Williamsburg)",
+        "name": "Tofubox",
+        "location": "Williamsburg",
         "link": "https://tofuboxny.com/",
-        "description": "No frills vegan chinese. Their box meals are an amazing deal.",
+        "description": "No frills vegan Chinese restaurant. Their box meals are an amazing deal.",
         "image": "tofubox.png"
       },
       {
-        "name": "Lakruwana Restaurant (Staten Island)",
+        "name": "Lakruwana Restaurant",
+        "location": "Staten Island",
         "link": "https://www.lakruwanarestaurant.com/",
         "description": "Sri Lankan food. Worth the ferry ride for the Saturday buffet.",
         "image": "lakruwana.png"
       },
       {
-        "name": "Fong On (Chinatown)",
+        "name": "Fong On",
+        "location": "Chinatown",
         "link": "https://fongon.net/",
-        "description": "Nearly 100 year old tofu-shop in Chinatown. Get the savory bowl (no shrimp) and some rice cakes.",
+        "description": "Nearly 100-year-old tofu-shop in Chinatown. Get the savory bowl (no shrimp) and some rice cakes.",
         "image": "fong-on.png"
       },
       {
-        "name": "BOs Bagels (Harlem)",
+        "name": "BOs Bagels",
+        "location": "Harlem",
         "link": "https://www.bosbagels.com/",
         "description": "Locations in Harlem and Wash Heights. Tofu maple walnut is the best spread I've had in the city.",
         "image": "bos-bagel.png"
       },
       {
-        "name": "Roti Roll (Morningside Heights)",
+        "name": "Roti Roll",
+        "location": "Morningside Heights",
         "link": "https://rotirollny.com/",
         "description": "Open until 3am most days. Get 2 chana masala rolls.",
         "image": "roti-roll.png"
       },
       {
-        "name": "Queens Night Market (Flushing)",
+        "name": "Queens Night Market",
+        "location": "Flushing",
         "link": "https://queensnightmarket.com/",
         "description": "Seasonal food market in Flushing Meadows Corona Park. The widest array of cuisines you'll ever see. Everything is $5.",
         "image": "queens-night-market.png"
@@ -116,33 +134,38 @@
     "title": "Art",
     "items": [
       {
-        "name": "MoMA (Midtown)",
+        "name": "MoMA",
+        "location": "Midtown",
         "link": "https://www.moma.com",
         "description": "Way better than I expected. Super fun with friends.",
         "image": "moma.png"
       },
       {
-        "name": "Poster House (Flatiron)",
+        "name": "Poster House",
+        "location": "Flatiron",
         "link": "https://posterhouse.org/",
         "description": "Favorite museum in the city. Always something new and interesting and it only takes an hour to see everything.",
         "image": "poster-house.png"
       },
       {
-        "name": "Noguchi Museum (Astoria)",
+        "name": "Noguchi Museum",
+        "location": "Astoria",
         "link": "https://www.noguchi.org/",
         "description": "Former house now museum of Isamu Noguchi. A peaceful oasis in suburban Queens.",
         "image": "noguchi.png"
       },
       {
-        "name": "Storm King Art Center (New Windsor)",
+        "name": "Storm King Art Center",
+        "location": "New Windsor",
         "link": "https://stormking.org/",
-        "description": "You can get to this 200 acre scuplyure park for $60 and a 1 hour bus from Port Authority. Most magical place in the Hudson Valley.",
+        "description": "You can get to this 200-acre sculpture park for $60 and a 1-hour bus from Port Authority. Most magical place in the Hudson Valley.",
         "image": "storm-king.png"
       },
       {
-        "name": "Dia Beacon (Beacon)",
+        "name": "Dia Beacon",
+        "location": "Beacon",
         "link": "https://www.diaart.org/visit/visit-our-locations-sites/dia-beacon-beacon-united-states",
-        "description": "Best art museum in the state. Take the metro north 1.5 hours and spend the day in the town.",
+        "description": "Best art museum in the state. Take the Metro North 1.5 hours and spend the day in the town.",
         "image": "dia-beacon.png"
       }
     ]
@@ -151,37 +174,43 @@
     "title": "Places",
     "items": [
       {
-        "name": "City Island (Bronx)",
+        "name": "City Island",
+        "location": "Bronx",
         "link": "https://www.moma.com",
         "description": "So far away you won't believe you're still in NYC. It's like a small New England town within the city limits.",
         "image": "city-island.png"
       },
       {
-        "name": "Hell Gate Bike Path (Randalls Island)",
+        "name": "Hell Gate Bike Path",
+        "location": "Randalls Island",
         "link": "https://www.moma.com",
         "description": "Ride a city bike around the island and see the marshes (and take lots of photos).",
         "image": "hell-gate.png"
       },
       {
         "name": "Governors Island",
+        "location": "",
         "link": "https://www.moma.com",
-        "description": "$5 10 minute ferry gets you to this car free oasis with hundreds of acres of parks, art galleriers, and conservation projects",
+        "description": "$5 10-minute ferry gets you to this car-free oasis with hundreds of acres of parks, art galleries, and conservation projects.",
         "image": "governors-island.png"
       },
       {
         "name": "Williamsburg Bridge",
+        "location": "",
         "link": "https://www.moma.com",
         "description": "Ride an electric Citi from Brooklyn -> Manhattan at sundown.",
         "image": "williamsburg-bridge.png"
       },
       {
-        "name": "Washington Square Park (Greenwich Village)",
+        "name": "Washington Square Park",
+        "location": "Greenwich Village",
         "link": "https://www.moma.com",
         "description": "Get a dosa and just sit and watch around the fountain for an hour.",
         "image": "washington-square-park.png"
       },
       {
-        "name": "Domino Park (Williamsburg)",
+        "name": "Domino Park",
+        "location": "Williamsburg",
         "link": "https://www.moma.com",
         "description": "The whole stretch of waterfront from Williamsburg to Greenpoint is amazing. Domino Park is the best part.",
         "image": "domino-park.png"

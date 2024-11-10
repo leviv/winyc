@@ -60,6 +60,7 @@
   .item-info {
     display: none;
     line-height: normal;
+    padding: 0px 10px 12px 10px;
   }
 
   .item-info h2 {
@@ -69,7 +70,6 @@
 
   .item-info p {
     margin: 0;
-    padding: 6px 10px 12px 10px;
   }
 
   .item-hovered .item-info {

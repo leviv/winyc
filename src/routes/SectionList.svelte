@@ -91,7 +91,12 @@
               on:mouseleave={() => itemMouseLeave(getSlugForName(item.name))}
               on:mouseenter={() => itemMouseEnter(getSlugForName(item.name))}
             >
-              <a href={item.link} target="_blank">{item.name}</a>
+              <a href={item.link} target="_blank"
+                >{item.name}
+                {#if item.location}
+                  <span>({item.location})</span>
+                {/if}
+              </a>
             </li>
           {/each}
         </ul>
