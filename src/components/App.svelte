@@ -11,9 +11,6 @@
     content="width=device-width, initial-scale=1, shrink-to-fit=no"
   />
 
-  <link rel="manifest" href="manifest.webmanifest" />
-  <link rel="apple-touch-icon" sizes="60x60" href="./images/pwa.png" />
-
   <meta
     property="og:image"
     content="https://raw.githubusercontent.com/skinsshark/winyc/master/images/preview.png"
