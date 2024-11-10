@@ -176,42 +176,42 @@
       {
         "name": "City Island",
         "location": "Bronx",
-        "link": "https://www.moma.com",
+        "link": "https://en.wikipedia.org/wiki/City_Island,_Bronx",
         "description": "So far away you won't believe you're still in NYC. It's like a small New England town within the city limits.",
         "image": "city-island.png"
       },
       {
         "name": "Hell Gate Bike Path",
         "location": "Randalls Island",
-        "link": "https://www.moma.com",
+        "link": "https://www.nycgovparks.org/parks/randalls-island/highlights/19674",
         "description": "Ride a city bike around the island and see the marshes (and take lots of photos).",
         "image": "hell-gate.png"
       },
       {
         "name": "Governors Island",
         "location": "",
-        "link": "https://www.moma.com",
+        "link": "https://www.govisland.com/",
         "description": "$5 10-minute ferry gets you to this car-free oasis with hundreds of acres of parks, art galleries, and conservation projects.",
         "image": "governors-island.png"
       },
       {
         "name": "Williamsburg Bridge",
         "location": "",
-        "link": "https://www.moma.com",
+        "link": "https://en.wikipedia.org/wiki/Williamsburg_Bridge",
         "description": "Ride an electric Citi from Brooklyn -> Manhattan at sundown.",
         "image": "williamsburg-bridge.png"
       },
       {
         "name": "Washington Square Park",
         "location": "Greenwich Village",
-        "link": "https://www.moma.com",
+        "link": "https://en.wikipedia.org/wiki/Washington_Square_Park",
         "description": "Get a dosa and just sit and watch around the fountain for an hour.",
         "image": "washington-square-park.png"
       },
       {
         "name": "Domino Park",
         "location": "Williamsburg",
-        "link": "https://www.moma.com",
+        "link": "https://en.wikipedia.org/wiki/Domino_Park",
         "description": "The whole stretch of waterfront from Williamsburg to Greenpoint is amazing. Domino Park is the best part.",
         "image": "domino-park.png"
       }
