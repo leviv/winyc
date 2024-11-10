@@ -28,4 +28,6 @@ You can preview the production build with `npm run preview`.
 
 ## Deplyoing
 
-TODO :)
+```bash
+npm run deploy
+```
