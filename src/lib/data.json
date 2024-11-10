@@ -3,40 +3,112 @@
     "title": "Eats",
     "items": [
       {
-        "name": "Very Fresh Noodles (Chelsea) 1",
-        "link": "http://www.veryfreshnoodles.com/",
-        "description": "Hand-pulled noodles in Chelsea Market. Get the Spicy Cumin Lamb Noodles.",
-        "image": "veryfreshnoodles.jpg"
+        "name": "Uptown Veg (Harlem)",
+        "link": "https://uptownvegnyc.com/",
+        "description": "Vegan soul food with 2 Harlem locations. Buffet style.",
+        "image": "uptown-veg.png"
       },
       {
-        "name": "Very Fresh Noodles (Chelsea) 13",
-        "link": "http://www.veryfreshnoodles.com/",
-        "description": "Hand-pulled noodles in Chelsea Market. Get the Spicy Cumin Lamb Noodles.",
-        "image": "veryfreshnoodles.jpg"
+        "name": "Bunna Cafe (Bushwick)",
+        "link": "https://www.bunnaethiopia.net/",
+        "description": "Vegan Ethiopian food. Come with friends and get the platter to share.",
+        "image": "bunna.png"
       },
       {
-        "name": "Very Fresh Noodles (Chelsea 12",
-        "link": "http://www.veryfreshnoodles.com/",
-        "description": "Hand-pulled noodles in Chelsea Market. Get the Spicy Cumin Lamb Noodles.",
-        "image": "veryfreshnoodles.jpg"
+        "name": "Spicy Moon (Multiple but East Village is best)",
+        "link": "https://www.spicymoonnyc.com/",
+        "description": "Most popular vegan restaurant in the city. Get the dry pepper style tofu.",
+        "image": "spicy-moon.png"
       },
       {
-        "name": "Very Fresh Noodles (Chelsea) 14",
-        "link": "http://www.veryfreshnoodles.com/",
-        "description": "Hand-pulled noodles in Chelsea Market. Get the Spicy Cumin Lamb Noodles.",
-        "image": "veryfreshnoodles.jpg"
+        "name": "Cafe Clementine (Clinton Hill)",
+        "link": "https://cafeclementine.com/",
+        "description": "Super cute vegan cafe. Try all the pastries you can.",
+        "image": "clementines.png"
       },
       {
-        "name": "Very Fresh Noodles (Chelsea) 51",
+        "name": "Very Fresh Noodles (Chelsea)",
         "link": "http://www.veryfreshnoodles.com/",
-        "description": "Hand-pulled noodles in Chelsea Market. Get the Spicy Cumin Lamb Noodles.",
-        "image": "veryfreshnoodles.jpg"
+        "description": "Hand-pulled noodles in Chelsea Market. Get the vegan dry duck noodles and tofu pudding.",
+        "image": "very-fresh-noodles.png"
       },
       {
-        "name": "Very Fresh Noodles (Chelsea) 6",
-        "link": "http://www.veryfreshnoodles.com/",
-        "description": "Hand-pulled noodles in Chelsea Market. Get the Spicy Cumin Lamb Noodles.",
-        "image": "veryfreshnoodles.jpg"
+        "name": "Yough (Bushwick)",
+        "link": "https://www.youghtogo.com/",
+        "description": "All vegan bodega. So many sandwiches, snaclss and treats.",
+        "image": "yough.png"
+      },
+      {
+        "name": "Buddha Bodai (Chinatown)",
+        "link": "https://www.buddha-bodai.com/",
+        "description": "5 Mott St. All day dim sum. Get anything with the BBQ pork.",
+        "image": "bodai.png"
+      },
+      {
+        "name": "Screamers Pizzeria (Crown Heights)",
+        "link": "https://www.screamerspizzeria.com/",
+        "description": "The only all-vegan pizzeria in the city. Get the buffalo cauliflower slice.",
+        "image": "screamers.png"
+      },
+      {
+        "name": "NY Dosas (Greenwich Village)",
+        "link": "https://www.instagram.com/nydosas",
+        "description": "Tasty dosa cart in Washington Square Park. Check their Insta for time and arrive early.",
+        "image": "ny-dosa.png"
+      },
+      {
+        "name": "Spring Cafe (Chinatown)",
+        "link": "https://springcafenyc.com/",
+        "description": "Tiny cafe above the Canal St. station. Get the vegan bao combo.",
+        "image": "spring-cafe.png"
+      },
+      {
+        "name": "Sen Saigon (Chinatown)",
+        "link": "https://sensaigon.com/",
+        "description": "Best Viet food in the city. Everything is good.",
+        "image": "sen-saigon.png"
+      },
+      {
+        "name": "Dayglow (Bushwick)",
+        "link": "https://dayglow.coffee/",
+        "description": "Hipster Bushwich coffee shop. Best cup I've had in the city.",
+        "image": "dayglow.png"
+      },
+      {
+        "name": "Tofubox (Williamsburg)",
+        "link": "https://tofuboxny.com/",
+        "description": "No frills vegan chinese. Their box meals are an amazing deal.",
+        "image": "tofubox.png"
+      },
+      {
+        "name": "Lakruwana Restaurant (Staten Island)",
+        "link": "https://www.lakruwanarestaurant.com/",
+        "description": "Sri Lankan food. Worth the ferry ride for the Saturday buffet.",
+        "image": "lakruwana.png"
+      },
+      {
+        "name": "Fong On (Chinatown)",
+        "link": "https://fongon.net/",
+        "description": "Nearly 100 year old tofu-shop in Chinatown. Get the savory bowl (no shrimp) and some rice cakes.",
+        "image": "fong-on.png"
+      },
+      {
+        "name": "BOs Bagels (Harlem)",
+        "link": "https://www.bosbagels.com/",
+        "description": "Locations in Harlem and Wash Heights. Tofu maple walnut is the best spread I've had in the city.",
+        "image": "bos-bagel.png"
+      },
+      {
+        "name": "Roti Roll (Morningside Heights)",
+        "link": "https://rotirollny.com/",
+        "description": "Open until 3am most days. Get 2 chana masala rolls.",
+        "image": "roti-roll.png"
+      },
+      {
+        "name": "Queens Night Market (Flushing)",
+        "link": "https://queensnightmarket.com/",
+        "description": "Seasonal food market in Flushing Meadows Corona Park. The widest array of cuisines you'll ever see. Everything is $5.",
+        "image": "queens-night-market.png"
       }
     ]
   },
@@ -44,81 +116,75 @@
     "title": "Art",
     "items": [
       {
-        "name": "MoMA (Midtown) 1 ",
+        "name": "MoMA (Midtown)",
         "link": "https://www.moma.com",
-        "description": "Hand-pulled noodles in Chelsea Market. Get the Spicy Cumin Lamb Noodles.",
-        "image": "moma.jpg"
+        "description": "Way better than I expected. Super fun with friends.",
+        "image": "moma.png"
       },
       {
-        "name": "MoMA (Midtown) 2",
-        "link": "https://www.moma.com",
-        "description": "Hand-pulled noodles in Chelsea Market. Get the Spicy Cumin Lamb Noodles.",
-        "image": "moma.jpg"
+        "name": "Poster House (Flatiron)",
+        "link": "https://posterhouse.org/",
+        "description": "Favorite museum in the city. Always something new and interesting and it only takes an hour to see everything.",
+        "image": "poster-house.png"
       },
       {
-        "name": "MoMA (Midtown) 3",
-        "link": "https://www.moma.com",
-        "description": "Hand-pulled noodles in Chelsea Market. Get the Spicy Cumin Lamb Noodles.",
-        "image": "moma.jpg"
+        "name": "Noguchi Museum (Astoria)",
+        "link": "https://www.noguchi.org/",
+        "description": "Former house now museum of Isamu Noguchi. A peaceful oasis in suburban Queens.",
+        "image": "noguchi.png"
       },
       {
-        "name": "MoMA (Midtown) 4",
-        "link": "https://www.moma.com",
-        "description": "Hand-pulled noodles in Chelsea Market. Get the Spicy Cumin Lamb Noodles.",
-        "image": "moma.jpg"
+        "name": "Storm King Art Center (New Windsor)",
+        "link": "https://stormking.org/",
+        "description": "You can get to this 200 acre scuplyure park for $60 and a 1 hour bus from Port Authority. Most magical place in the Hudson Valley.",
+        "image": "storm-king.png"
       },
       {
-        "name": "MoMA (Midtown) 5",
-        "link": "https://www.moma.com",
-        "description": "Hand-pulled noodles in Chelsea Market. Get the Spicy Cumin Lamb Noodles.",
-        "image": "moma.jpg"
-      },
-      {
-        "name": "MoMA (Midtown) 6",
-        "link": "https://www.moma.com",
-        "description": "Hand-pulled noodles in Chelsea Market. Get the Spicy Cumin Lamb Noodles.",
-        "image": "moma.jpg"
+        "name": "Dia Beacon (Beacon)",
+        "link": "https://www.diaart.org/visit/visit-our-locations-sites/dia-beacon-beacon-united-states",
+        "description": "Best art museum in the state. Take the metro north 1.5 hours and spend the day in the town.",
+        "image": "dia-beacon.png"
       }
     ]
   },
   {
-    "title": "Food",
+    "title": "Places",
     "items": [
       {
-        "name": "MoMA (Midtown) 21 ",
+        "name": "City Island (Bronx)",
         "link": "https://www.moma.com",
-        "description": "Hand-pulled noodles in Chelsea Market. Get the Spicy Cumin Lamb Noodles.",
-        "image": "moma.jpg"
+        "description": "So far away you won't believe you're still in NYC. It's like a small New England town within the city limits.",
+        "image": "city-island.png"
       },
       {
-        "name": "MoMA (Midtown) 22",
+        "name": "Hell Gate Bike Path (Randalls Island)",
         "link": "https://www.moma.com",
-        "description": "Hand-pulled noodles in Chelsea Market. Get the Spicy Cumin Lamb Noodles.",
-        "image": "moma.jpg"
+        "description": "Ride a city bike around the island and see the marshes (and take lots of photos).",
+        "image": "hell-gate.png"
       },
       {
-        "name": "MoMA (Midtown) 23",
+        "name": "Governors Island",
         "link": "https://www.moma.com",
-        "description": "Hand-pulled noodles in Chelsea Market. Get the Spicy Cumin Lamb Noodles.",
-        "image": "moma.jpg"
+        "description": "$5 10 minute ferry gets you to this car free oasis with hundreds of acres of parks, art galleriers, and conservation projects",
+        "image": "governors-island.png"
       },
       {
-        "name": "MoMA (Midtown) 24",
+        "name": "Williamsburg Bridge",
         "link": "https://www.moma.com",
-        "description": "Hand-pulled noodles in Chelsea Market. Get the Spicy Cumin Lamb Noodles.",
-        "image": "moma.jpg"
+        "description": "Ride an electric Citi from Brooklyn -> Manhattan at sundown.",
+        "image": "williamsburg-bridge.png"
       },
       {
-        "name": "MoMA (Midtown) 25",
+        "name": "Washington Square Park (Greenwich Village)",
         "link": "https://www.moma.com",
-        "description": "Hand-pulled noodles in Chelsea Market. Get the Spicy Cumin Lamb Noodles.",
-        "image": "moma.jpg"
+        "description": "Get a dosa and just sit and watch around the fountain for an hour.",
+        "image": "washington-square-park.png"
       },
       {
-        "name": "MoMA (Midtown) 26",
+        "name": "Domino Park (Williamsburg)",
         "link": "https://www.moma.com",
-        "description": "Hand-pulled noodles in Chelsea Market. Get the Spicy Cumin Lamb Noodles.",
-        "image": "moma.jpg"
+        "description": "The whole stretch of waterfront from Williamsburg to Greenpoint is amazing. Domino Park is the best part.",
+        "image": "domino-park.png"
       }
     ]
   }

@@ -1,5 +1,9 @@
 <footer>
-  <i>✁ Disclaimer: I don't know pizza and not all locations have images (*)</i>
+  <i
+    >✁ Forked from <a href="https://sharonzheng.com/winyc/" target="_blank"
+      >Sharon Zheng</a
+    ></i
+  >
 </footer>
 
 <style>

@@ -19,7 +19,10 @@
     content="https://raw.githubusercontent.com/skinsshark/winyc/master/images/preview.png"
   />
 
-  <link rel="shortcut icon" href="./favicon.ico" />
+  <link
+    rel="icon"
+    href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🗽</text></svg>"
+  />
 
   <title>when in nyc</title>
 </svelte:head>
@@ -34,12 +37,12 @@
 <style>
   @font-face {
     font-family: "Main";
-    src: url("./fonts/Main.ttf") format("truetype");
+    src: url("$lib/fonts/Main.ttf") format("truetype");
   }
 
   @font-face {
     font-family: "Wide";
-    src: url("./fonts/Wide.ttf") format("truetype");
+    src: url("$lib/fonts/Wide.ttf") format("truetype");
   }
 
   :global(body) {
@@ -47,7 +50,7 @@
     background-color: #fff;
     font-family: "Main";
     padding: 10px;
-    min-height: 2000px;
+    min-height: 1500px;
   }
 
   * {

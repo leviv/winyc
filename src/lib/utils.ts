@@ -17,3 +17,13 @@ export const setBackgroundColor = () => {
   // 0.2 opacity for pastel colors
   document.body.style.backgroundColor = genRGBA(0.2);
 };
+
+export const isLandscape = (imageSrc: string) => {
+  return new Promise((resolve) => {
+    const img = new Image();
+    img.src = imageSrc;
+    img.onload = () => {
+      resolve(img.width > img.height);
+    };
+  });
+};

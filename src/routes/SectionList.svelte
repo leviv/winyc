@@ -24,31 +24,37 @@
   let _colorChangeLimit = 10;
 
   // When an item is hovered, we want to see the corresponding image on top and full opacity
-  const seeImage = (id: string) => {
+  const seeImage = (className: string) => {
     // Fade all images except the one we care about
-    [...document.getElementsByTagName("img")].map((image) => {
-      image.style.opacity = "0.5";
+    [...document.getElementsByClassName("item-image")].map((image) => {
+      const imageElement = image as HTMLElement;
+      imageElement.style.opacity = "0.5";
     });
 
-    const itemImage: HTMLElement | null = document.querySelector("img." + id);
+    const itemImage: HTMLElement | null = document.querySelector(
+      "." + className
+    );
     if (itemImage) {
       const newZIndex = _zIndex + 1;
       itemImage.style.zIndex = newZIndex.toString();
       _zIndex = newZIndex;
       itemImage.style.opacity = "1";
+      itemImage.classList.add("item-hovered");
     }
   };
 
   // When no item is hovered, we want to see all images at full opacity
   const notHovering = (image: HTMLElement) => {
     if (image) {
-      [...document.getElementsByTagName("img")].map((image) => {
-        image.style.opacity = "1";
+      [...document.getElementsByClassName("item-image")].map((image) => {
+        const imageElement = image as HTMLElement;
+        imageElement.style.opacity = "1";
+        image.classList.remove("item-hovered");
       });
     }
   };
 
-  const itemMouseEnter = (id: string) => {
+  const itemMouseEnter = (className: string) => {
     // Change background color every 10th item hover
     if (_colorChangeLimit === 0) {
       setBackgroundColor();
@@ -57,13 +63,11 @@
       _colorChangeLimit--;
     }
 
-    seeImage(id);
+    seeImage(className);
   };
 
   const itemMouseLeave = (id: string) => {
-    const imageElement: HTMLElement | null = document.querySelector(
-      "img." + id
-    );
+    const imageElement: HTMLElement | null = document.querySelector("." + id);
     if (imageElement) {
       notHovering(imageElement);
     }

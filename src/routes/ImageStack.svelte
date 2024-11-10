@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { getSlugForName, genRGBA } from "$lib/utils";
+  import { getSlugForName, genRGBA, isLandscape } from "$lib/utils";
   import data from "$lib/data.json";
 
   const getImageXPosition = (i: number) => {
@@ -17,14 +17,22 @@
 
 <div id="images-container">
   {#each data.flatMap((section) => section.items) as item, i}
-    <img
-      class="item-image {getSlugForName(item.name)}"
-      src={item.image}
-      alt={item.description}
-      style="right: {getImageXPosition(i)}; top: {getImageYPosition(
-        i
-      )}; border-color: {genRGBA(0.8)}"
-    />
+    {#await isLandscape(item.image) then isLandscape}
+      <div
+        class="item-image {getSlugForName(item.name)} {isLandscape
+          ? 'resize-image'
+          : ''}"
+        style="right: {getImageXPosition(i)}; top: {getImageYPosition(
+          i
+        )}; border-color: {genRGBA(0.8)}"
+      >
+        <img src={item.image} alt={item.description} />
+        <div class="item-info">
+          <h2>{item.name}</h2>
+          <p>{item.description}</p>
+        </div>
+      </div>
+    {/await}
   {/each}
 </div>
 
@@ -36,6 +44,36 @@
     top: 0;
     border-top: 5px solid #fff;
     border-right: 5px solid #fff;
+    background-color: #fff;
+    line-height: 0;
+  }
+
+  .item-image.resize-image {
+    width: 400px;
+  }
+
+  .item-image img {
+    width: 100%;
+    height: auto;
+  }
+
+  .item-info {
+    display: none;
+    line-height: normal;
+  }
+
+  .item-info h2 {
+    font-family: "Wide";
+    margin: 5px 0;
+  }
+
+  .item-info p {
+    margin: 0;
+    padding: 6px 10px 12px 10px;
+  }
+
+  .item-hovered .item-info {
+    display: block;
   }
 
   @media only screen and (max-width: 900px) {
@@ -44,30 +82,21 @@
     }
   }
 
-  img.resizeImage {
-    width: auto !important;
-    height: 200px;
-  }
-
   @media only screen and (min-width: 1600px) {
-    img {
+    .item-image {
       width: 400px !important;
     }
-
-    img.resizeImage {
-      width: auto !important;
-      height: 400px;
+    .item-image.resize-image {
+      width: 600px !important;
     }
   }
 
   @media only screen and (max-width: 1000px) {
-    img {
+    .item-image {
       width: 100px !important;
     }
-
-    img.resizeImage {
-      width: auto !important;
-      height: 100px;
+    .item-image.resize-image {
+      width: 200px !important;
     }
   }
 </style>
