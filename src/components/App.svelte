@@ -11,10 +11,9 @@
     content="width=device-width, initial-scale=1, shrink-to-fit=no"
   />
 
-  <meta
-    property="og:image"
-    content="https://raw.githubusercontent.com/skinsshark/winyc/master/images/preview.png"
-  />
+  <meta property="og:title" content="When in nyc" />
+  <meta name="description" content="Levi's guide to nyc" />
+  <meta property="og:image" content="preview.png" />
 
   <link
     rel="icon"
