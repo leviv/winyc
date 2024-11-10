@@ -1,7 +1,8 @@
 <footer>
   <i
-    >✁ Forked from <a href="https://sharonzheng.com/winyc/" target="_blank"
-      >Sharon Zheng</a
+    >✁ Forked+Design from <a
+      href="https://sharonzheng.com/winyc/"
+      target="_blank">Sharon Zheng</a
     ></i
   >
 </footer>
