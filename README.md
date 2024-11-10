@@ -28,6 +28,4 @@ You can preview the production build with `npm run preview`.
 
 ## Deplyoing
 
-```bash
-npm run deploy
-```
+Just pushing should work. I added `./github/workflows/deploy.yml` which runs on every push

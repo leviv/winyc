@@ -128,7 +128,7 @@
   }
 
   .favorite span {
-    cursor: url("./images/face.png"), auto;
+    cursor: url("face.png"), auto;
   }
 
   .items {
