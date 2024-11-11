@@ -3,6 +3,9 @@
   import { getSlugForName, setBackgroundColor } from "$lib/utils";
   import data from "$lib/data.json";
 
+  let _zIndex = 0;
+  let _colorChangeLimit = 10;
+
   const handleScroll = () => {
     const placeItems = [...document.getElementsByClassName("place-item")].sort(
       (a, b) => {
@@ -21,7 +24,19 @@
       );
 
       if (itemRect.top > 0 && !found) {
-        itemImage?.classList.add("item-scrolled-mobile");
+        if (!itemImage?.classList.contains("item-scrolled-mobile")) {
+          itemImage?.classList.add("item-scrolled-mobile");
+
+          // Change background color every 10th item hover
+          if (window.innerWidth <= 900) {
+            if (_colorChangeLimit === 0) {
+              setBackgroundColor();
+              _colorChangeLimit = 10;
+            } else {
+              _colorChangeLimit--;
+            }
+          }
+        }
         found = true;
       } else {
         itemImage?.classList.remove("item-scrolled-mobile");
@@ -45,9 +60,6 @@
     setSectionHeights();
     setBackgroundColor();
   });
-
-  let _zIndex = 0;
-  let _colorChangeLimit = 10;
 
   // When an item is hovered, we want to see the corresponding image on top and full opacity
   const seeImage = (className: string) => {
