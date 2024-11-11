@@ -10,10 +10,14 @@
     let svg = document.querySelector("svg");
     if (!svg) return;
 
-    let svgTop = svg.getBoundingClientRect().top + window.scrollY;
+    let svgMiddle =
+      (svg.getBoundingClientRect().top + svg.getBoundingClientRect().bottom) /
+        2 +
+      window.scrollY;
     let scrollY = window.scrollY + window.innerHeight;
     let scrollPercentage =
-      (scrollY - svgTop) / (document.documentElement.scrollHeight - svgTop);
+      (scrollY - svgMiddle) /
+      (document.documentElement.scrollHeight - svgMiddle);
 
     scrollPercentage = Math.max(0, Math.min(scrollPercentage, 1));
 
