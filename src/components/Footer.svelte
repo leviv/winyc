@@ -7,14 +7,13 @@
 
   function fillSvgPaths() {
     let paths = document.querySelectorAll("path");
-    let footer = document.querySelector("svg");
-    if (!footer) return;
+    let svg = document.querySelector("svg");
+    if (!svg) return;
 
-    let footerTop = footer.getBoundingClientRect().top + window.scrollY;
+    let svgTop = svg.getBoundingClientRect().top + window.scrollY;
     let scrollY = window.scrollY + window.innerHeight;
     let scrollPercentage =
-      (scrollY - footerTop) /
-      (document.documentElement.scrollHeight - footerTop);
+      (scrollY - svgTop) / (document.documentElement.scrollHeight - svgTop);
 
     scrollPercentage = Math.max(0, Math.min(scrollPercentage, 1));
 
