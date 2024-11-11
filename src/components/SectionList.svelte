@@ -3,6 +3,32 @@
   import { getSlugForName, setBackgroundColor } from "$lib/utils";
   import data from "$lib/data.json";
 
+  const handleScroll = () => {
+    const placeItems = [...document.getElementsByClassName("place-item")].sort(
+      (a, b) => {
+        const aRect = a.getBoundingClientRect();
+        const bRect = b.getBoundingClientRect();
+        return aRect.top - bRect.top;
+      }
+    );
+
+    let found = false;
+
+    for (let item of placeItems) {
+      const itemRect = item.getBoundingClientRect();
+      const itemImage: HTMLElement | null = document.querySelector(
+        "." + item.id
+      );
+
+      if (itemRect.top > 0 && !found) {
+        itemImage?.classList.add("item-scrolled-mobile");
+        found = true;
+      } else {
+        itemImage?.classList.remove("item-scrolled-mobile");
+      }
+    }
+  };
+
   onMount(() => {
     // Set aside heights so sticky headers work
     const setSectionHeights = () => {
@@ -74,6 +100,8 @@
   };
 </script>
 
+<svelte:window on:scroll={handleScroll} />
+
 <section class="favorite">
   <h2><span>My</span> Fave <br />✜ ✜ ✜</h2>
 </section>
@@ -87,7 +115,8 @@
         <ul>
           {#each section.items as item}
             <li
-              class={getSlugForName(item.name)}
+              class={"place-item " + getSlugForName(item.name)}
+              id={getSlugForName(item.name)}
               on:mouseleave={() => itemMouseLeave(getSlugForName(item.name))}
               on:mouseenter={() => itemMouseEnter(getSlugForName(item.name))}
             >

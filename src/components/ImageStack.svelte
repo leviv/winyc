@@ -77,6 +77,19 @@
   }
 
   @media only screen and (max-width: 900px) {
+    .item-image.item-scrolled-mobile {
+      display: block;
+      bottom: 10px;
+      top: auto !important;
+      right: 10px !important;
+      z-index: 999999;
+    }
+    .item-image.item-scrolled-mobile .item-info {
+      display: block;
+    }
+  }
+
+  @media only screen and (max-width: 900px) {
     .item-image {
       display: none;
     }
@@ -93,7 +106,7 @@
 
   @media only screen and (max-width: 1000px) {
     .item-image {
-      width: 100px !important;
+      width: 200px !important;
     }
     .item-image.resize-image {
       width: 200px !important;

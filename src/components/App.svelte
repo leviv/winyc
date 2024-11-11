@@ -46,7 +46,6 @@
     background-color: #fff;
     font-family: "Main";
     padding: 10px;
-    min-height: 1500px;
   }
 
   * {
