@@ -82,8 +82,10 @@
       bottom: 10px;
       top: auto !important;
       right: 10px !important;
+      opacity: 1 !important;
       z-index: 999999;
     }
+
     .item-image.item-scrolled-mobile .item-info {
       display: block;
     }

@@ -6,6 +6,16 @@
   let _zIndex = 0;
   let _colorChangeLimit = 10;
 
+  const setColorChangeLimit = () => {
+    // Change background color every 10th item hover
+    if (_colorChangeLimit === 0) {
+      setBackgroundColor();
+      _colorChangeLimit = 10;
+    } else {
+      _colorChangeLimit--;
+    }
+  };
+
   const handleScroll = () => {
     const placeItems = [...document.getElementsByClassName("place-item")].sort(
       (a, b) => {
@@ -29,12 +39,7 @@
 
           // Change background color every 10th item hover
           if (window.innerWidth <= 900) {
-            if (_colorChangeLimit === 0) {
-              setBackgroundColor();
-              _colorChangeLimit = 10;
-            } else {
-              _colorChangeLimit--;
-            }
+            setColorChangeLimit();
           }
         }
         found = true;
@@ -93,14 +98,7 @@
   };
 
   const itemMouseEnter = (className: string) => {
-    // Change background color every 10th item hover
-    if (_colorChangeLimit === 0) {
-      setBackgroundColor();
-      _colorChangeLimit = 10;
-    } else {
-      _colorChangeLimit--;
-    }
-
+    setColorChangeLimit();
     seeImage(className);
   };
 
