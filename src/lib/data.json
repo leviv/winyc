@@ -181,13 +181,6 @@
         "image": "city-island.png"
       },
       {
-        "name": "Hell Gate Bike Path",
-        "location": "Randalls Island",
-        "link": "https://www.nycgovparks.org/parks/randalls-island/highlights/19674",
-        "description": "Ride a city bike around the island and see the marshes (and take lots of photos).",
-        "image": "hell-gate.png"
-      },
-      {
         "name": "Governors Island",
         "location": "",
         "link": "https://www.govisland.com/",
@@ -214,6 +207,13 @@
         "link": "https://en.wikipedia.org/wiki/Domino_Park",
         "description": "The whole stretch of waterfront from Williamsburg to Greenpoint is amazing. Domino Park is the best part.",
         "image": "domino-park.png"
+      },
+      {
+        "name": "Hell Gate Bike Path",
+        "location": "Randalls Island",
+        "link": "https://www.nycgovparks.org/parks/randalls-island/highlights/19674",
+        "description": "Ride a city bike around the island and see the marshes (and take lots of photos).",
+        "image": "hell-gate.png"
       }
     ]
   }

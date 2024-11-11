@@ -13,7 +13,10 @@
 
   <meta property="og:title" content="When in nyc" />
   <meta name="description" content="Levi's guide to nyc" />
-  <meta property="og:image" content="/preview.png" />
+  <meta
+    property="og:image"
+    content="https://raw.githubusercontent.com/leviv/winyc/master/static/preview.png"
+  />
 
   <link
     rel="icon"
