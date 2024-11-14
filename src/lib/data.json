@@ -45,10 +45,10 @@
         "image": "yough.png"
       },
       {
-        "name": "Buddha Bodai",
+        "name": "Bodhi Kosher Vegetarian Restaurant",
         "location": "Chinatown",
         "link": "https://www.buddha-bodai.com/",
-        "description": "5 Mott St. All day dim sum. Get anything with the BBQ pork.",
+        "description": "77 Mulberry St. All day dim sum. Get anything with the BBQ pork.",
         "image": "bodai.png"
       },
       {
@@ -167,6 +167,13 @@
         "link": "https://www.diaart.org/visit/visit-our-locations-sites/dia-beacon-beacon-united-states",
         "description": "Best art museum in the state. Take the Metro North 1.5 hours and spend the day in the town.",
         "image": "dia-beacon.png"
+      },
+      {
+        "name": "Queens Museum",
+        "location": "Flushing",
+        "link": "https://queensmuseum.org/",
+        "description": "The museum is located in Flushing Meadows Corona Park. The Panorama room is stunning.",
+        "image": "queens-museum.png"
       }
     ]
   },
@@ -214,6 +221,13 @@
         "link": "https://www.nycgovparks.org/parks/randalls-island/highlights/19674",
         "description": "Ride a city bike around the island and see the marshes (and take lots of photos).",
         "image": "hell-gate.png"
+      },
+      {
+        "name": "Red Hook",
+        "location": "",
+        "link": "https://en.wikipedia.org/wiki/Red_Hook,_Brooklyn",
+        "description": "Take the ferry here and walk along the waterfront. Get some food at Ikea while you're there",
+        "image": "red-hook.png"
       }
     ]
   }
